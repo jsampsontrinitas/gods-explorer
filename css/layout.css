@@ -1,0 +1,52 @@
+/* === layout.css === */
+.game-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.menu-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-container {
+    position: relative;
+    height: var(--menu-item-size);
+    margin: 0 auto;
+    perspective: 1200px;
+    transform-style: preserve-3d;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-out;
+}
+
+.controls {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: var(--padding);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}

@@ -1,0 +1,12 @@
+/* === themes/light.css === */
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-bg: #ffffff;
+        --color-text: #111111;
+        --color-text-muted: rgba(0, 0, 0, 0.6);
+        --color-border: rgba(0, 0, 0, 0.2);
+        --color-shadow: rgba(0, 0, 0, 0.05);
+        --color-key-bg: rgba(0, 0, 0, 0.1);
+    }
+}

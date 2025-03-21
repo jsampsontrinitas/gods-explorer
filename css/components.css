@@ -1,0 +1,115 @@
+/* === components.css === */
+
+/* Header */
+.title {
+    font-size: 3rem;
+    color: var(--color-highlight);
+    text-shadow: 0 0 10px var(--color-glow);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+    font-weight: 400;
+}
+
+/* Menu Items */
+.menu-item {
+    position: absolute;
+    height: var(--menu-item-size);
+    width: var(--menu-item-size);
+    left: 50%;
+    top: 0;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-out;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid var(--color-border);
+    background: linear-gradient(135deg, var(--gradient-menu-start), var(--gradient-menu-end));
+    backdrop-filter: blur(10px);
+    padding: var(--padding);
+    backface-visibility: hidden;
+    transform: translateX(-50%);
+    box-shadow: var(--shadow-box);
+}
+
+.menu-item.active {
+    opacity: 1;
+    box-shadow: var(--shadow-selection);
+    z-index: 10;
+}
+
+.menu-item.selected {
+    animation: float 3s ease-in-out infinite;
+}
+
+.menu-item img {
+    width: var(--img-size);
+    height: var(--img-size);
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.menu-item p {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+}
+
+/* Info Section */
+.info-section {
+    height: 200px;
+    margin-top: 2rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.info-section.visible {
+    opacity: 1;
+}
+
+.info-section h3 {
+    font-size: 2rem;
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+.info-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* Controls */
+.control-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-text);
+    background: none;
+    border: none;
+    opacity: 0.7;
+}
+
+.key {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-key-bg);
+    border-radius: 5px;
+    font-weight: bold;
+}

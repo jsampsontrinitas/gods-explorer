@@ -1,0 +1,27 @@
+/* === variables.css === */
+:root {
+    /* Colors */
+    --color-primary: #3a0ca3;
+    --color-secondary: #f72585;
+    --color-highlight: #4cc9f0;
+    --color-bg: #10002b;
+    --color-text: #e9ecef;
+    --color-text-muted: rgba(255, 255, 255, 0.8);
+    --color-border: rgba(76, 201, 240, 0.3);
+    --color-glow: rgba(76, 201, 240, 0.5);
+    --color-key-bg: rgba(255, 255, 255, 0.2);
+    --color-shadow: rgba(0, 0, 0, 0.1);
+
+    /* Shadows */
+    --shadow-selection: 0 0 20px var(--color-highlight), 0 0 40px var(--color-highlight);
+    --shadow-box: 0 4px 30px var(--color-shadow);
+
+    /* Gradients */
+    --gradient-menu-start: rgba(58, 12, 163, 0.3);
+    --gradient-menu-end: rgba(247, 37, 133, 0.2);
+
+    /* Sizes */
+    --menu-item-size: 15rem;
+    --img-size: 9.375rem;
+    --padding: 1rem;
+}
