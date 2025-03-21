@@ -5,7 +5,7 @@
         "pantheon": "Greek",
         "domain": "Sky, Thunder, Lightning, Law, Order, Justice",
         "description": "Zeus was the chief god of the Greek who ruled from Mount Olympus.",
-        "imageUrl": "/images/zeus.webp"
+        "imageUrl": "images/zeus.webp"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "pantheon": "Greek",
         "domain": "Marriage, Women, Family, Childbirth",
         "description": "Hera was the queen of the gods, wife and sister of Zeus, and goddess of marriage and family.",
-        "imageUrl": "/images/hera.webp"
+        "imageUrl": "images/hera.webp"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "pantheon": "Greek",
         "domain": "Sea, Earthquakes, Storms, Horses",
         "description": "Poseidon was the god of the sea, earthquakes, and horses, recognized by his trident.",
-        "imageUrl": "/images/poseidon.webp"
+        "imageUrl": "images/poseidon.webp"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "pantheon": "Greek",
         "domain": "Wisdom, Warfare, Strategy, Crafts",
         "description": "Athena was the goddess of wisdom, warfare, and crafts, born fully armored from Zeus's head.",
-        "imageUrl": "/images/athena.webp"
+        "imageUrl": "images/athena.webp"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "pantheon": "Greek",
         "domain": "Music, Arts, Knowledge, Healing, Prophecy, Sun",
         "description": "Apollo was the god of music, arts, knowledge, healing, prophecy, and the sun.",
-        "imageUrl": "/images/apollo.webp"
+        "imageUrl": "images/apollo.webp"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "pantheon": "Greek",
         "domain": "Hunt, Wilderness, Animals, Moon, Chastity",
         "description": "Artemis was the goddess of the hunt, wilderness, animals, and the moon.",
-        "imageUrl": "/images/artemis.webp"
+        "imageUrl": "images/artemis.webp"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "pantheon": "Greek",
         "domain": "War, Bloodshed, Violence",
         "description": "Ares was the god of war, representing the violent and untamed aspects of battle.",
-        "imageUrl": "/images/ares.webp"
+        "imageUrl": "images/ares.webp"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "pantheon": "Greek",
         "domain": "Love, Beauty, Passion, Pleasure",
         "description": "Aphrodite was the goddess of love, beauty, pleasure, and procreation.",
-        "imageUrl": "/images/aphrodite.webp"
+        "imageUrl": "images/aphrodite.webp"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "pantheon": "Greek",
         "domain": "Fire, Forge, Craftsmanship, Metallurgy",
         "description": "Hephaestus was the god of fire, metalworking, stone masonry, and sculpture.",
-        "imageUrl": "/images/hephaestus.webp"
+        "imageUrl": "images/hephaestus.webp"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "pantheon": "Greek",
         "domain": "Messengers, Travelers, Merchants, Thieves",
         "description": "Hermes was the messenger of the gods and god of trade, wealth, luck, and travel.",
-        "imageUrl": "/images/hermes.webp"
+        "imageUrl": "images/hermes.webp"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "pantheon": "Greek",
         "domain": "Agriculture, Harvest, Fertility, Sacred Law",
         "description": "Demeter was the goddess of agriculture, harvest, fertility, and the cycle of life and death.",
-        "imageUrl": "/images/demeter.webp"
+        "imageUrl": "images/demeter.webp"
     },
     {
         "id": 12,
@@ -93,6 +93,6 @@
         "pantheon": "Greek",
         "domain": "Wine, Festivity, Ecstasy, Theater",
         "description": "Dionysus was the god of wine, festivity, ritual madness, and theater.",
-        "imageUrl": "/images/dionysus.webp"
+        "imageUrl": "images/dionysus.webp"
     }
 ]
